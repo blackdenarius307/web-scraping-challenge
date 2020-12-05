@@ -57,4 +57,18 @@ def scrape():
     tables = pd.read_html(url)
 
     #More Pictures.
-    tables
+
+
+    #Append it all
+    Allspaceinfo = {
+        "Headline" : headlines,
+        "Teaser" : paragraphs,
+        "Featured URL" :, #Whatever variable I end up making.
+        "Hemisphere 1 URL":, #Same
+        "Hemisphere 2 URL":, #Same
+        "Hemisphere 3 URL":, #Same
+        "Hemisphere 4 URL":, #Same
+        "Table Data": tables
+    }
+    
+   
