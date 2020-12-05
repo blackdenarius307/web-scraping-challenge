@@ -1,9 +1,9 @@
 #Importations
+import splinter
 import pandas as pd
 from splinter import Browser
 from bs4 import BeautifulSoup
 from webdriver_manager.chrome import ChromeDriverManager
-from splinter.exceptions import ElementDoesNotExist
 
 #Start Browser
 def init_browser():
@@ -63,12 +63,12 @@ def scrape():
     Allspaceinfo = {
         "Headline" : headlines,
         "Teaser" : paragraphs,
-        "Featured URL" :, #Whatever variable I end up making.
-        "Hemisphere 1 URL":, #Same
-        "Hemisphere 2 URL":, #Same
-        "Hemisphere 3 URL":, #Same
-        "Hemisphere 4 URL":, #Same
-        "Table Data": tables
+        #"Featured URL" :, #Whatever variable I end up making.
+        #"Hemisphere 1 URL":, #Same
+        #"Hemisphere 2 URL":, #Same
+        #"Hemisphere 3 URL":, #Same
+        #"Hemisphere 4 URL":, #Same
+        #"Table Data": tables
     }
     
    
